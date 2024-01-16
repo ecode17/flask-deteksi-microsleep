@@ -1,0 +1,157 @@
+body {
+    font-family: Garamond;
+    background-color: rgb(19, 29, 41); 
+    align-items: center;
+}
+
+h1 {
+    color: #f08f00; /* Dark text color */
+    margin: 20px 0; /* Add some margin */
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    color: #343a40;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.ml-auto {
+    margin-left: auto !important;
+}
+
+.mr-auto {
+    margin-right: auto !important;
+}
+
+.col-md-10, .col-md-8, .col-md-4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Update the background color of the form control */
+.form-control {
+    background: white;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    height: 40px; /* Adjust the height as needed */
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+.btn {
+    /* Update button styles */
+    background-color: white;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.btn.btn-warning {
+    background-color: #f08f00;
+    border-color: #c27400;
+}
+
+.btn.btn-warning:active,
+.btn.btn-warning:focus,
+.btn.btn-warning:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#text {
+    width: 60%; /* Adjust the width as needed */
+}
+
+#chatbox {
+    background-color: #ffffff16; /* Light blue background color */
+    margin: 60px auto;
+    width: 80%;
+    min-height: 70px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#userInput {
+    margin: 60px auto;
+    justify-content: center;
+    text-align: center;
+}
+
+#textInput {
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid #ffffff;
+    font-family: monospace;
+    font-size: 20px; /* Increase font size for input */
+    margin-bottom: 15px; /* Increase margin for better spacing */
+}
+
+#buttonInput {
+    padding: 15px; /* Adjust the padding as needed */
+    font-family: monospace;
+    font-size: 18px; /* Adjust the font size as needed */
+    background-color: #f08f00; /* Adjust the background color as needed */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Adjust the border-radius as needed */
+    cursor: pointer;
+    width: 20%; /* Adjust the width as needed */
+}
+
+#send.btn-lg {
+    padding: 15px 25px; /* Adjust the padding as needed */
+    font-size: 20px; /* Adjust the font size as needed */
+}
+
+
+.userText {
+    text-align: left;
+    font-family: monospace;
+    font-size: 17px;
+    line-height: 30px;
+    margin: 10px;
+}
+
+.botText {
+    text-align: right;
+    font-family: monospace;
+    font-size: 17px;
+    line-height: 30px;
+    margin: 10px;
+}
+
+.userText span {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.botText span {
+    background-color: #ef5350;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#tidbit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    background-color: #28a745; /* Green background color */
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}

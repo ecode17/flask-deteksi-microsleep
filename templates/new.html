@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel = "icon" href = "assets/logo.png" type = "image/x-icon"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+    <title>Driver Microsleep</title>
+    <style>
+      body {
+        background-color: #e4e4e4;
+        min-height: 100vh;
+        font-family: "Poppins";
+        margin: 0; 
+        }
+      .center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+
+      }
+
+      .sHead {
+        font-weight: 600;
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+        color: #000e34;
+      }
+
+      .t-a-c {
+        text-align: center;
+      }
+
+
+      .formCard {
+        background: #f4f4f4;
+        box-shadow: 26px 60px 39px rgba(33, 40, 47, 0.02),
+          12px 27px 29px rgba(33, 40, 47, 0.03),
+          3px 7px 16px rgba(33, 40, 47, 0.03),
+          0px 0px 0px rgba(33, 40, 47, 0.03);
+        border-radius: 8px;
+        padding: 2vw;
+        max-width: 100%;
+      }
+
+      .footer {
+        position: absolute;
+        bottom: 10px; /* Adjust to your preference */
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+
+      }
+
+    </style>
+  </head>
+  <body class="center">
+    <div class="formCard">
+      <div class="webcam">
+        <img src="{{url_for('driver')}}" with="100%" />
+      </div>
+    </div>
+  </body>
+  <footer class="footer">
+    <div>
+      <span>
+        <a href="/static/test1.html" class="btn btn-outline-warning btn-lg" style="text-decoration: none" >Back</a>
+      </span>
+    </div>
+  </footer>
+</html>
